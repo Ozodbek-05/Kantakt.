@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Kantakt Ma'lumotlari</h1>
+    <form action="Server" method="get">
+        <label for="tel">Telefon raqamingiz:</label>
+        <br>
+        <input type="number" id="tel" placeholder="Telefon raqamingiz:" maxlength="15" minlength="4" style="width: 35%; height: 25px; font-size: 16px;">
+        <br>
+        <br>
+        <label for="manzil">Manzilingzi:</label>
+        <br>
+        <input type="text" name="" id="manzil" placeholder="Manzilingzi kiriting:" minlength="4" style="width: 45%; height: 35px; font-size: 16px;">
+        <br>
+        <br>
+        <label for="xabar">Xabaringiz:</label>
+        <br>
+        <input type="text" name="" id="xabar" placeholder="Xabaringizni yozing:" minlength="4" style="width: 90%; height: 80px; font-size: 18px;">
+        <br>
+        <br>
+        Siz bilan qanday aloqa qilishimizni xohlaysiz ?
+        <br>
+        <select id="aloqa" name="aloqa">
+            <option value="email">Email orqali</option>
+            <option value="telefon">Telefon orqali</option>
+            <option value="sms">SMS orqali</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Xabarni Yuborish">
+        <input type="reset" value="Tozalash">
+    </form>
+</body>
+</html>
